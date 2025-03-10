@@ -1,0 +1,12 @@
+Yüz Tespiti ve Görselleştirme Projesi
+Bu proje, OpenCV, requests ve matplotlib kütüphanelerini kullanarak bir görüntü üzerinde yüz tespiti gerçekleştiren ve tespit edilen yüzleri kırmızı karelerle işaretleyen bir uygulamadır. Proje, özellikle yüz tespiti üzerine temel bir anlayış oluşturmak ve görsel olarak yüzleri işaretlemek isteyenler için faydalıdır.
+
+Projenin Özellikleri:
+Yüz Tespiti: OpenCV’nin Haar Cascade algoritması kullanılarak, resimler üzerinde yüzlerin tespiti yapılır.
+Kırmızı Kareler ile İşaretleme: Tespit edilen yüzlerin etrafına kırmızı kareler çizilir.
+Google Drive URL'den Resim İndirme: requests kütüphanesiyle, Google Drive linklerinden resimler alınabilir.
+Görselleştirme: matplotlib kütüphanesi kullanılarak tespit edilen yüzlerin bulunduğu resim görselleştirilir ve yüz sayısı başlıkta belirtilir.
+Kullanılan Teknolojiler:
+OpenCV: Bilgisayarla görme ve yüz tespiti için.
+requests: Resimleri HTTP istekleri ile çekmek için.
+matplotlib: Grafik ve görselleştirme için.
